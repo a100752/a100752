@@ -1,47 +1,45 @@
-# Olá, sou o Francisco Duarte Silva 👋
+# Francisco Silva
 
-Engenheiro Informático em formação na **Universidade do Minho**, com foco em **Sistemas Operativos de Baixo Nível**, **Engenharia de Software Modular**, **Processamento Concorrente de Dados** e **Desenvolvimento Web Moderno**.
+Computer Science and Software Engineering student at the **University of Minho** (Braga, Portugal).
 
----
-
-## 🛠️ Tecnologias & Competências
-
-### Linguagens & Sistemas
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Frameworks, Bibliotecas & Ferramentas
-![POSIX](https://img.shields.io/badge/POSIX_APIs-black?style=for-the-badge&logo=linux&logoColor=white)
-![GLib](https://img.shields.io/badge/GLib_2.0-blue?style=for-the-badge&logo=gnome&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+My academic focus centers on systems programming, operating systems, networking, and software architecture, with an active interest in autonomous systems, embedded environments, and unmanned aerial technologies (UAVs).
 
 ---
 
-## 🚀 Portfólio de Projetos em Destaque
+### Technical Focus & Interests
 
-Abaixo encontram-se os principais projetos desenvolvidos com foco em robustez, padrões de arquitetura e otimização de desempenho:
-
-| Projeto | Área / Domínio | Stack | Descrição & Destaques |
-| :--- | :--- | :--- | :--- |
-| **[SO-MultiRunnerOrchestrator](https://github.com/a100752/SO-MultiRunnerOrchestrator)** | Sistemas Operativos & Concorrência | `C`, `POSIX`, `Named Pipes` | Orquestrador cliente-servidor com escalonamento concorrente (`FCFS`, `User-RR`), prevenção de deadlocks em IPC e execução de pipelines complexos. |
-| **[LI3-FlightDataEngine](https://github.com/a100752/LI3-FlightDataEngine)** | Algoritmos & Grandes Volumes de Dados | `C`, `GLib`, `HashTables` | Motor de indexação em memória e consultas analíticas sobre centenas de milhares de registos de voos e reservas com resposta $O(1)$. |
-| **[BD-TripWriter](https://github.com/a100752/BD-TripWriter)** | Engenharia de Dados & Modelação | `SQL`, `MySQL` | Modelação relacional normalizada (3FN/BCNF) para plataforma de viagens, incluindo vistas analíticas e controlo de acessos por perfil. |
-| **[POO-DomusControl](https://github.com/a100752/POO-DomusControl)** | Engenharia de Software & OOP | `Java`, `Design Patterns` | Sistema de gestão de automação residencial inteligente (*Smart Home*), arquitetura desacoplada e serialização de estado. |
-| **[IPM-RRFScoreboard](https://github.com/a100752/IPM-RRFScoreboard)** | Frontend Moderno & UX/UI | `Vue 3`, `Pinia`, `Vite` | Dashboard web interativo para monitorização do Plano de Recuperação da UE, desenvolvido com base nas heurísticas de usabilidade de Nielsen. |
-| **[Redes-PacketSniffer](https://github.com/a100752/Redes-PacketSniffer)** | Redes & Análise de Tráfego | `Python`, `Scapy`, `Rich` | Ferramenta de inspeção e dissecação de pacotes multi-camadas (L2 a L7), suporte a filtros BPF e emulação de topologia em CORE. |
-| **[IO-OptimizacaoLinear](https://github.com/a100752/IO-OptimizacaoLinear)** | Investigação Operacional & Otimização | `Modelos .lp`, `lp_solve` | Modelação matemática de planeamento de produção industrial e roteamento sob restrições térmicas. |
+- **Systems & Low-Level Programming:** POSIX APIs, multi-process concurrency, IPC (pipes/FIFOs), memory management, and performance optimization in C.
+- **Networking & Communications:** Packet inspection, network protocols (L2–L7), and telemetry/socket-level workflows.
+- **Software Engineering & Data:** Data structures, modular object-oriented design in Java, and relational database systems (SQL).
+- **Embedded & Autonomous Systems:** Exploring the intersection of software engineering, real-time data handling, and UAV/drone platforms.
 
 ---
 
-## 📫 Contactos & Links
+### Selected Projects
 
-- **GitHub**: [github.com/a100752](https://github.com/a100752)
-- **Localização**: Braga, Portugal
-- **Instituição**: Universidade do Minho — Escola de Engenharia
+- **[SO-MultiRunnerOrchestrator](https://github.com/a100752/SO-MultiRunnerOrchestrator)**  
+  Concurrent task orchestrator in C using POSIX named pipes, process control (`fork`/`exec`), custom scheduling policies (`FCFS`, `User-RR`), and non-blocking IPC deadlock prevention.
+
+- **[Redes-PacketSniffer](https://github.com/a100752/Redes-PacketSniffer)**  
+  Network traffic inspection tool in Python and Scapy with L2–L7 protocol dissection, custom BPF filtering, and interactive terminal telemetry.
+
+- **[LI3-FlightDataEngine](https://github.com/a100752/LI3-FlightDataEngine)**  
+  High-throughput query engine in C (GLib) for indexing and validating large aviation datasets in memory with constant-time lookup.
+
+- **[POO-DomusControl](https://github.com/a100752/POO-DomusControl)**  
+  Modular smart home automation application built in Java, showcasing object-oriented principles, custom exceptions, and state serialization.
+
+- **[BD-TripWriter](https://github.com/a100752/BD-TripWriter)**  
+  Relational database design (E/R modeling normalized to 3NF/BCNF), schema constraints, DDL/DML scripts, and analytical SQL views.
+
+- **[IPM-RRFScoreboard](https://github.com/a100752/IPM-RRFScoreboard)**  
+  Interactive web dashboard built with Vue 3, Pinia, and Vite for visualizing European recovery indicators according to Nielsen's usability heuristics.
+
+---
+
+### Contact & Information
+
+- **Location:** Braga, Portugal  
+- **Education:** B.Sc. in Computer Science & Software Engineering (LEI) — Universidade do Minho  
+- **Email:** [a100752@alunos.uminho.pt](mailto:a100752@alunos.uminho.pt)  
+- **GitHub:** [github.com/a100752](https://github.com/a100752)
