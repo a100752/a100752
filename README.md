@@ -1,4 +1,4 @@
-# Francisco Silva
+# Francisco Duarte Silva
 
 Computer Science and Software Engineering student at the **University of Minho** (Braga, Portugal).
 
